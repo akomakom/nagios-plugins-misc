@@ -2,7 +2,11 @@
 
 ###############################################################################################
 # Nagios check for listening ports
-#   verifies that the host (local or remote) is listening on the expected ports
+#   Verifies that the host (local or remote) is listening on the expected ports.
+#   Can check for:
+#     * No unexpected listening ports
+#     * All expected ports are listening
+#   Optional ports are effectively ignored.
 #
 # Examples:
 #
